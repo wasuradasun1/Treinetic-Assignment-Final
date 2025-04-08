@@ -4,7 +4,7 @@ A full-stack Task Manager application built using **Spring Boot** for the backen
 
 ## 📁 Project Structure
 
-Wasura_Dasun_Thilakshana_Task_Manager_App/
+Treinetic-Assignment-Final/
 ├── task-manager-backend/ # Spring Boot API
 ├── task-manager-frontend/ # Angular UI
 └── README.md
