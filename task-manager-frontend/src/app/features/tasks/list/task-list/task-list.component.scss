@@ -1,0 +1,31 @@
+/* task-list.component.scss */
+.task-card {
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+}
+
+button {
+  flex: 1 1 auto;
+  margin: 7px;
+  padding: 4px;
+  text-align: center;
+}
+div {
+  margin: 5px;
+}
+
+

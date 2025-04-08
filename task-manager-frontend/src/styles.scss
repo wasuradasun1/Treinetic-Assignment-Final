@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+// Bootstrap imports
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/utilities";
+
+// Custom variables
+$primary: #4a6bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+// Body styles
+body {
+  background-color: #f5f7fb;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+// Custom utilities
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.min-h-100 {
+  min-height: 100vh;
+}
+
+// Animation
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+input,
+button {
+  transition: all 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Responsive tweaks
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}

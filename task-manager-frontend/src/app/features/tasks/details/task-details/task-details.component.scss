@@ -1,0 +1,55 @@
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+
+  &-header {
+    padding: 1.25rem 1.5rem;
+  }
+
+  &-body {
+    padding: 2rem;
+  }
+
+  &-footer {
+    padding: 1.25rem 1.5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+  }
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 0.75em;
+}
+
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.card-body h5 {
+  margin-bottom: 0.5rem;
+}
+
+.card-body p {
+  margin-bottom: 1.5rem;
+}
+
+.card-footer {
+  gap: 1rem;
+}
+
+.btn i {
+  margin-right: 0.4rem;
+}
+
+button[routerLink="/tasks"] {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin: 0.5rem;
+}
+
+h1 {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin: 1rem;
+}
