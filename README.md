@@ -42,8 +42,8 @@ Wasura_Dasun_Thilakshana_Task_Manager_App/
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/Treinetic_Assingment.git
-   cd Treinetic Assingment/task-manager-backend
+   git clone https://github.com/wasuradasun1/Treinetic-Assignment-Final.git
+   cd Treinetic-Assignment-Final/task-manager-backend
 
 2. Create a MySQL database:
 
@@ -101,7 +101,7 @@ Angular CLI (Angular 18v)
 
 1. Navigate to the frontend directory:
 
-cd ../frontend
+cd Treinetic-Assignment-Final/task-manager-frontend
 
 2. Install dependencies:
 
