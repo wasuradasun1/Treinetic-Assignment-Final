@@ -4,7 +4,7 @@ A full-stack Task Manager application built using **Spring Boot** for the backen
 
 ## 📁 Project Structure
 
-Treinetic-Assignment-Final/
+Treinetic-Assignment-Task-Manager-App/
 ├── task-manager-backend/ # Spring Boot API
 ├── task-manager-frontend/ # Angular UI
 └── README.md
@@ -42,8 +42,8 @@ Treinetic-Assignment-Final/
 
 1. Clone the repository:
 
-   git clone https://github.com/wasuradasun1/Treinetic-Assignment-Final.git
-   cd Treinetic-Assignment-Final/task-manager-backend
+   git clone https://github.com/wasuradasun1/Treinetic-Assignment-Task-Manager-App.git
+   cd Treinetic-Assignment-Task-Manager-App/task-manager-backend
 
 2. Create a MySQL database:
 
@@ -101,7 +101,7 @@ Angular CLI (Angular 18v)
 
 1. Navigate to the frontend directory:
 
-cd Treinetic-Assignment-Final/task-manager-frontend
+cd Treinetic-Assignment-Task-Manager-App/task-manager-frontend
 
 2. Install dependencies:
 
